@@ -1,0 +1,23 @@
+
+.left{
+  border-right: none;
+    border-bottom: 1px solid #e3e2e8;
+}
+.text h2 {    
+    font-size: 28px;  
+  }
+  .text{
+    padding: 0px 17px;
+  }
+.section{
+    
+    /* border: 0px solid red; */
+    /* display: flex; */
+    flex-direction: column;
+}
+#footer{
+    /* z-index: 1; */
+    /* position: absolute; */
+    /* bottom: 0px; */
+    /* top: 0px; */
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balance Exhaust</title>
+  <link rel="icon" href="img/logo-jio03.png" type="image/png">
+  <link rel="stylesheet" media="screen and (max-width: 630px)" href="phone.css" />
+  <style>
+    body {
+      margin: 0px;
+      padding: 0;
+      font-family: sans-serif;
+      /* position: absolute; */
+      /* min-height: 100vh; */
+
+    }
+
+    .container {
+      padding-top: 7px;
+      padding-bottom: 2px;
+      border-bottom: 2px solid #eee;
+      display: flex;
+      height: 49px;
+      justify-content: center;
+      /* border: 2px solid red; */
+    }
+
+    .container a img {
+      width: 48px;
+    }
+
+    .image {
+      width: fit-content;
+      /* border: 2px solid black; */
+    }
+
+    .header {
+      display: flex;
+      justify-content: center;
+      /* border: 2px solid blue; */
+    }
+
+    .section {
+      margin: auto;
+      max-width: 878px;
+      /* display: grid; */
+      /* grid-gap: 2rem; */
+      /* grid-template-columns: repeat(2, auto); */
+      display: flex;
+      margin-bottom: 88px;
+      /* border: 2px solid green; */
+    }
+
+    .left {
+      margin: 0px;
+      /* grid-area: left; */
+      border-right: 1px solid #e3e2e8;
+    }
+
+    .left ul {
+      margin: 0px;
+      padding: 20px 20px;
+    }
+
+    .right ul {
+      margin: 0px;
+      padding: 20px 20px;
+    }
+
+    .right {
+      margin: 0px;
+      /* grid-area: right; */
+      /* border: 2px solid pink; */
+    }
+
+    .text {
+      width: 1000px;
+    }
+
+    .text h2 {
+      text-align: center;
+      margin: 0px 2px;
+      margin-top: 46px;
+      margin-bottom: 17px;
+      font-size: 36px;
+      color: #58585B;
+      font-stretch: extra-expanded;
+      font-weight: 500;
+    }
+
+    .li {
+      list-style: none;
+      font-weight: 549;
+      line-height: 24px;
+    }
+
+    .li p {
+      color: #58585B;
+      font-size: 16px;
+    }
+
+    .a {
+      /* font-family:unset ; */
+      font-weight: 600;
+      text-decoration: none;
+      color: #2f65b0;
+    }
+
+    .a:hover {
+      font-weight: 600;
+      text-decoration: underline;
+      color: #2f65b0;
+    }
+
+    #footer {
+      margin-top: 100%;
+      display: block;
+      width: 100%;
+      background-color: #f8f8f7;
+      padding: 8px 20px;
+      height: 56px;
+      position: fixed;
+      bottom: 0;
+      /* z-index: 1; */
+    }
+
+    .name {
+      color: #939597;
+      max-width: 1048px;
+      margin: auto;
+      font-size: 13px;
+    }
+
+    .d {
+      /* position: relative; */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <div class="d"> -->
+  <div class="container">
+    <!-- <div class="image"> -->
+    <a href="https://jio.com"><img src="img/logo-jio03.png" alt="" /></a>
+
+    <!-- </div> -->
+  </div>
+
+  <div class="header">
+    <div class="text">
+      <h2>You are not connected to internet</h2>
+    </div>
+  </div>
+  <div class="section">
+    <div class="left">
+      <ul class="ul">
+        <li class="li">
+          <p>If you are using a Prepaid connection please <a href="#" class="a">RECHARGE NOW</a>.</p>
+        </li>
+        <li class="li">
+          <p>If you are using a JioFiber connection please <a href="#" class="a">RECHARGE NOW</a> .</p>
+        </li>
+        <li class="li">
+          <p>&nbsp;</p>
+        </li>
+        <li class="li">
+          <p>*Note: If you have already recharged, please check your plan. You will be unable to use a JioPhone plan in
+            a smartphone.</p>
+        </li>
+      </ul>
+    </div>
+    <div class="right">
+      <ul>
+        <li class="li">
+          <p>If you are using a Postpaid connection please check if your bill is overdue or your credit limit is
+            exhausted.</p>
+          </p>
+        <li class="li">
+          <p>Please <a href="#" class="a">MAKE PAYMENT</a> to restore your connection.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <footer id="footer">
+    <!-- <div class="footer"> -->
+    <div class="name">
+      <p>©Reliance Industries 2018</p>
+      <!-- </div> -->
+    </div>
+  </footer>
+</body>
+</html>
